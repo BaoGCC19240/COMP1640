@@ -1,0 +1,91 @@
+/* Style for the page header */
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Style for the form */
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    }
+    
+input[type=email]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    background-color: #fff;
+    color: #333;
+    }
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    background-color: #3e8e41;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the error messages */
+.error {
+    color: red;
+    margin-top: 5px;
+}
+button {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}

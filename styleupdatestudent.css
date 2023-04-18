@@ -1,0 +1,59 @@
+/* Set the font family and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Center the form on the page */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+/* Style the heading */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style the labels and input fields */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Style the buttons */
+input[type="submit"], button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #f44336;
+}
+
+/* On hover, change the background color of the buttons */
+input[type="submit"]:hover, button:hover {
+  background-color: #3e8e41;
+}

@@ -1,0 +1,64 @@
+/* Style the form header */
+h1 {
+	font-size: 2em;
+	margin-bottom: 1em;
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(179, 177, 168);
+    padding-left: 1%;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/* Style the form labels */
+label {
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+/* Style the form inputs */
+input[type="text"]{
+    padding: 0.5em;
+	font-size: 1.2em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 96%;
+}
+textarea {
+	padding: 0.5em;
+	font-size: 1.2em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 96%;
+    height: 200px;
+}
+
+select {
+	padding: 0.5em;
+	font-size: 1.2em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+input[type="file"] {
+	margin-bottom: 1em;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+	padding: 0.5em 1em;
+	font-size: 1.2em;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
